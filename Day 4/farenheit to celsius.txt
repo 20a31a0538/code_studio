@@ -1,0 +1,21 @@
+ int s,e,w;
+
+    cin>>s;
+
+    cin>>e;
+
+    cin>>w;
+
+    int i = s; //fahrenheit
+
+    double c;   //celsius
+
+    while(i<=e){
+
+        c=(i-32)*5/9;  // farenheit to celsius
+
+        cout<<i<<"\t"<<c<<endl;
+
+        i+=w;
+
+    }
