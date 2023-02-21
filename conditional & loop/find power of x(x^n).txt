@@ -1,0 +1,6 @@
+int x,n;
+    cin>>x>>n;
+
+    int res;
+    res=pow(x,n);
+    cout<<res;

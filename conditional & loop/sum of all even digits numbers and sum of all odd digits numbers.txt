@@ -1,0 +1,15 @@
+ int n;
+    cin>>n;
+    int rem;
+    int even_sum=0, odd_sum=0;
+    while(n>0){
+        rem=n%10;
+        n=n/10;
+        if(rem%2==0){
+            even_sum+=rem;
+        }
+        if(rem%2!=0){
+            odd_sum+=rem;
+        }
+    }
+    cout<<even_sum<<" "<<odd_sum;
